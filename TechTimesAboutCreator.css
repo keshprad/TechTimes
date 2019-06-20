@@ -1,0 +1,36 @@
+/*Selector {
+	Property: value;
+}*/
+body{
+	background-color: rgba(5,0,10,0.75);
+}
+
+.authorContainer{
+	background-color: rgb(182,166,193);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-radius: 10px;
+	border: 3px solid rgba(83,13,150,0.9);
+	font-family: Serif;
+	font-size: 1.75em;
+	text-indent: 2em;
+	padding: 10px;
+}
+
+.authorContainer.authorName{
+	text-indent: 0em;
+	width: 250px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: rgb(255,132,2);
+}
+
+.socials{
+	transition: all 0.15s;
+}
+
+.socials.link:hover{
+	transform: scale(1.025);
+}

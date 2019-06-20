@@ -1,0 +1,51 @@
+/*Selector {
+	Property: value;
+}*/
+
+body{
+	background-color: rgba(5,0,10,0.75);
+}
+
+.img1st{
+	height: 250px;
+	width: 425px;
+	margin-top: 3px;
+	margin-bottom: 30px;
+	margin-right: 33px;
+	margin-left: 30px;
+	border-radius: 5px;
+	float: right;
+
+}
+
+.ArticleTitle{
+	text-decoration: underline;
+	text-decoration-color: rgb(255,132,2);
+}
+
+.Content{
+	background-color: rgb(182,166,193);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-radius: 10px;
+	border: 3px solid rgba(83,13,150,0.9);
+	font-family: Serif;
+	font-size: 1.75em;
+	padding: 10px;
+}
+
+.Main{
+	text-indent: 2em;
+}
+
+.Content.authorName{
+	width: 600px;
+	text-align: center;
+}
+
+.Content.info {
+	width: 250px;
+	text-align: center;
+}
